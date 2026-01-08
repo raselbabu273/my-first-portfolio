@@ -15,12 +15,13 @@
     font-optical-sizing: auto;
 }
 
-.logo h2{
+.logo h2 {
     font-size: 45px;
     font-weight: 900;
+    color: #181818;
 }
 
-.color-orange{
+.color-orange {
     color: #FD6E0A;
 }
 
@@ -30,8 +31,8 @@
     padding: 18px 35px;
     border-radius: 5px;
     font-size: 20px;
-    font-weight: bold;
     color: white;
+    font-weight: bold;
 }
 
 /* Main style */
@@ -41,7 +42,7 @@ header {
     padding-top: 50px;
 }
 
-nav{
+nav {
     width: 71%;
     max-width: 1140px;
     /* border: 1px solid red; */
@@ -49,16 +50,17 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin-left: 635px; */
 }
 
-nav .menu{
+nav .menu {
     display: flex;
     list-style: none;
     gap: 51px;
     align-items: center;
 }
 
-nav .menu a{
+nav .menu a {
     font-size: 20px;
     color: #474747;
     text-decoration: none;
